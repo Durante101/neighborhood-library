@@ -65,7 +65,7 @@ public class Book {
                 ", checkedOutTo='" + checkedOutTo + '\'' +
                 '}';
     }
-    
+
     public void checkOut(String personName) {
         isCheckedOut = true;
         checkedOutTo = personName;
